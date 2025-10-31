@@ -4,6 +4,7 @@ import { getDatabase, ref, set, onValue } from "firebase/database";
 const firebaseConfig = {
   apiKey: "AIzaSyDkm6BqFq_sfm_ziHzz2IzxfoWBrXc58Ls",
   authDomain: "my-notepad-free.firebaseapp.com",
+  databaseURL: "https://my-notepad-free-default-rtdb.firebaseio.com",
   projectId: "my-notepad-free",
   storageBucket: "my-notepad-free.firebasestorage.app",
   messagingSenderId: "129315852413",
